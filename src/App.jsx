@@ -1,9 +1,12 @@
-import React from 'react'
+import Body from "./components/Body";
+import Header from "./components/Header";
 
-export const App = () => {
-  const [isOpen, setIsOpen] = [];
-  
+const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Header />
+      <Body />
+    </>
+  );
+};
+export default App;
